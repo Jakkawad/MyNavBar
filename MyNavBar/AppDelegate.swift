@@ -13,9 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // FB Call-Back function
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        let wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        return wasHandled
+    }
+    // End
+
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 

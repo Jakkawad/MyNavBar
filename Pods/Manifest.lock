@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (2.0.2)
+  - APAvatarImageView (1.1.0)
+  - DynamicColor (2.3.0)
+  - IQKeyboardManagerSwift (4.0.0)
+  - MapleBacon (2.0.7)
+  - SWXMLHash (2.0.2)
+  - XCDYouTubeKit (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 2.0)
+  - APAvatarImageView
+  - DynamicColor (~> 2.1)
+  - IQKeyboardManagerSwift
+  - MapleBacon
+  - SWXMLHash (~> 2.0.0)
+  - XCDYouTubeKit (= 2.2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  APAvatarImageView: 428dbd0631a150fe876f90bfd7eaa275a19b9209
+  DynamicColor: 18badd22ee5edeefcbe0a8f5887a86640c592a1c
+  IQKeyboardManagerSwift: ede2a27b4e1ce053d03073b9c7fa439322f5e405
+  MapleBacon: be3192c52f95f4e1b6e6e8aa8d666cedeb207430
+  SWXMLHash: 9e6bd7db2e8275eaf3d2082265623d6e749e169d
+  XCDYouTubeKit: 920ff5dfdf37f0f41b19610c5270b2ed23b05b13
+
+COCOAPODS: 0.39.0
